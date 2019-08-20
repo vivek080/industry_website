@@ -1,0 +1,461 @@
+body {
+
+  margin: 0;
+
+  font-size: 28px;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+.img {
+
+    -ms-interpolation-mode: bicubic;
+
+    border: 0;
+
+    margin-left: 25px;
+
+    image-orientation: center;
+
+    vertical-align: left;
+
+    max-width: 100%;
+
+    height: auto;
+
+}
+
+
+
+
+
+.header {
+
+  padding: 8px;
+
+
+
+
+
+}
+
+
+
+.search {
+
+  width: 100%;
+
+  position: right;
+
+}
+
+
+
+.searchTerm {
+
+  float: left;
+
+  width: 30%;
+
+  border: 3px solid #00B4CC;
+
+  padding: 5px;
+
+  height: 10px;
+
+  border-radius: 5px;
+
+  outline: none;
+
+  color: #9DBFAF;
+
+}
+
+
+
+.searchTerm:focus{
+
+  color: #00B4CC;
+
+}
+
+
+
+.searchButton {
+
+  position: absolute;
+
+  right: 10px;
+
+  width: 40px;
+
+  height: 25px;
+
+  border: 1px solid #00B4CC;
+
+  background: white;
+
+  text-align: center;
+
+  color: #fff;
+
+  top: 20%;
+
+  left: 85%;
+
+  border-radius: 5px;
+
+  cursor: pointer;
+
+  font-size: 20px;
+
+}
+
+
+
+/*Resize the wrap to see the search bar change!*/
+
+.wrap{
+
+  width: 30%;
+
+  position: absolute;
+
+  top: 20%;
+
+  left: 85%;
+
+  transform: translate(-50%, -50%);
+
+}
+
+
+
+.logo1{
+
+align-self: flex-end;
+
+margin-left: 0;
+
+}
+
+
+
+.span1
+
+{
+
+  float: left;
+
+  background-color: yellow;
+
+  padding: 30px 60px;
+
+  width: 25px;
+
+
+
+
+
+}
+
+
+
+.span2
+
+{
+
+  float: right;
+
+  background-color: yellow;
+
+  padding: 30px 60px;
+
+  width: 25px;
+
+
+
+
+
+}
+
+
+
+#navbar{
+
+  background-color: #f2f2f2;
+
+text-align: center;
+
+}
+
+#navbar a {
+
+  background-color:grey;
+
+  padding: 18px 18px;
+
+  font-size: 17px;
+
+  font-style: oblique;
+
+
+
+  display: inline-block;
+
+}
+
+
+
+
+
+
+
+#navbar a:visited {
+
+  background-color:#f2f2f2;
+
+}
+
+
+
+#navbar a:hover {
+
+  background-color: #0066ff;
+
+}
+
+
+
+#navbar a:active {
+
+  background-color: hotpink;
+
+}
+
+
+
+.content {
+
+  padding: 30px;
+
+}
+
+
+
+.sticky {
+
+  position: fixed;
+
+  top: 0;
+
+  width: 100%;
+
+}
+
+
+
+.sticky + .content {
+
+  padding-top: 60px;
+
+}
+
+h1 {
+
+  color: blue;
+
+  text-align: center;
+
+}
+
+
+
+h2 {
+
+  color: blue;
+
+  text-align: center;
+
+}
+
+.column1 {
+
+  margin-left: 150px;
+
+
+
+  width:auto;
+
+}
+.a1{
+
+  display: block;
+    width: 300px;
+    height: 650px;
+    padding: 15px;
+    background-color: #F7F7F7;
+    margin-bottom: 30px;
+    line-height: normal;
+
+
+}
+
+
+}
+
+.column3{
+
+
+
+  float: left;
+
+  width: 30px;
+
+}
+
+
+
+.img {
+
+  border: 5px solid #00ffff; /* Gray border */
+
+  border-radius: 6px;  /* Rounded border */
+
+  padding: 5px; /* Some padding */
+
+  height: 150px;
+
+  width: 250px;
+
+  float: right;/* Set a small width */
+
+}
+
+
+
+/* Add a hover effect (blue shadow) */
+
+.img:hover {
+
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+
+}
+
+
+
+.img1 {
+
+  border: 5px solid #00ffff; /* Gray border */
+
+  border-radius: 6px;  /* Rounded border */
+
+  padding: 5px; /* Some padding */
+
+  height: 150px;
+
+  width: 250px;
+
+  float: left;/* Set a small width */
+
+}
+
+
+
+/* Add a hover effect (blue shadow) */
+
+.img1:hover {
+
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+
+}
+
+
+
+.img2 {
+
+  border: 5px solid #00ffff; /* Gray border */
+
+  border-radius: 6px;  /* Rounded border */
+
+  padding: 5px; /* Some padding */
+
+  height: 150px;
+
+  width: 250px;
+
+  float: right;/* Set a small width */
+
+}
+
+
+
+/* Add a hover effect (blue shadow) */
+
+.img2:hover {
+
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+
+}
+
+
+
+
+
+
+
+.img3 {
+
+  border: 5px solid #00ffff; /* Gray border */
+
+  border-radius: 6px;  /* Rounded border */
+
+  padding: 5px; /* Some padding */
+
+  height: 150px;
+
+  float: left;
+
+  width: 250px; /* Set a small width */
+
+}
+
+
+
+/* Add a hover effect (blue shadow) */
+
+.img3:hover {
+
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+
+}
+
+.img5 {
+
+  height: 60px;
+
+  width: 60px;
+
+  float: left;
+}
+
+
+
+
+
+
+
+
+
+/*.imgr{
+
+  margin-left: 200px;
+
+}*/
+
+
+
+/* Clear floats after the columns */

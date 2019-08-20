@@ -1,0 +1,192 @@
+body {
+  margin: 0;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+navbar-custom1 {
+  padding: 0 15px;
+  
+  line-height: 80px;
+  background-color: #d2e6ff;
+}
+
+.navbar-custom2{
+	color: #034ea9;
+	padding:5px 20px 7px 0;
+	font-weight: 700;
+	font-family: robotoregular;
+	font-size: 1.143em;
+}
+
+.custom-overlay{
+  float: left;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 60px;
+ 
+  font-size: 200px;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+/*.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky/
+    pointer-events: none;
+}*/
+
+
+
+.img1{
+	margin-left: 37%;
+}
+
+.navbar-toggler{
+	background-color: grey;
+}
+
+
+
+
+.navbar3{
+	background-color: #f2f2f2;
+
+}
+
+/* to hide the arrow in dropdownmenu  */
+.dropdown-toggle::after {
+	background-color: grey;
+    display:none;
+}
+
+
+
+.
+h1 {
+  color: blue;
+  text-align: center;
+}
+
+h2 {
+  color: blue;
+  text-align: center;
+}
+.column1 {
+  margin-left: 40px;
+  float: left;
+  width: 600px;
+}
+.a1{
+  background-color: white;
+  float: right;
+
+
+}
+.column2 {
+  float: left;
+  width: 300px;
+  max-height: 10%;
+  margin-left: 0px;
+}
+.column3{
+
+  float: left;
+  width: 30px;
+}
+
+.img {
+  border: 5px solid #00ffff; /* Gray border */
+  border-radius: 6px;  /* Rounded border */
+  padding: 5px; /* Some padding */
+  height: 150px;
+  width: 250px;
+  float: right;/* Set a small width */
+}
+
+/* Add a hover effect (blue shadow) */
+.img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.img1 {
+  border: 5px solid #00ffff; /* Gray border */
+  border-radius: 6px;  /* Rounded border */
+  padding: 5px; /* Some padding */
+  height: 150px;
+  width: 250px;
+  float: left;/* Set a small width */
+}
+
+/* Add a hover effect (blue shadow) */
+.img1:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.img2 {
+  border: 5px solid #00ffff; /* Gray border */
+  border-radius: 6px;  /* Rounded border */
+  padding: 5px; /* Some padding */
+  height: 150px;
+  width: 250px;
+  float: right;/* Set a small width */
+}
+
+/* Add a hover effect (blue shadow) */
+.img2:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+
+
+.img3 {
+  border: 5px solid #00ffff; /* Gray border */
+  border-radius: 6px;  /* Rounded border */
+  padding: 5px; /* Some padding */
+  height: 150px;
+  float: left;
+  width: 250px; /* Set a small width */
+}
+
+/* Add a hover effect (blue shadow) */
+.img3:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.img5 {
+  height: 60px;
+  width: 60px;
+  float: left;
+}
+
+.f{
+  float: left;
+  width: 50px;
+  max-height: 10%;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+.m{
+  float: left;
+  position: absolute;
+  width: 200px;
+  max-height: 10%;
+  left: 8%;
+
+}
+.q{
+  float: left;
+  position: absolute;
+  width: 100px;
+  left: 20%; 
+}
+.pop li{
+
+  list-style-type: none;
+}
+/*.imgr{
+  margin-left: 200px;
+}*/
+
+/* Clear floats after the columns */
